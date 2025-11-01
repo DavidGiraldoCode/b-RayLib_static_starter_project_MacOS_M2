@@ -2,7 +2,6 @@
 build/
 *.o
 *.obj
-*.a
 *.so
 *.dll
 *.dylib
@@ -43,6 +42,14 @@ venv/
 __pycache__/
 *.pyc
 
-# === Raylib specific (optional, in case you copy builds) ===
-raylib/
-raylib-master/
+# === Raylib / project-specific files ===
+# --- Optional: if you want to create a repo without uploading Raylib files ---
+# Uncomment the following lines to ignore them completely:
+# lib/libraylib.a
+# include/raylib/
+# raylib/
+# raylib-master/
+# *.a
+# /lib
+# /include
+

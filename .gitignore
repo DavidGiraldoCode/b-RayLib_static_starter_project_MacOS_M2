@@ -1,0 +1,48 @@
+# === Build artifacts ===
+build/
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+
+# === Binaries ===
+my_app
+my_app_debug
+bin/
+*.log
+
+# === macOS system junk ===
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# === IDE & editor files ===
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+
+# === Backup files ===
+*~
+*.bak
+*.tmp
+
+# === Python virtual envs or scripts (if you use any tools) ===
+venv/
+__pycache__/
+*.pyc
+
+# === Raylib specific (optional, in case you copy builds) ===
+raylib/
+raylib-master/

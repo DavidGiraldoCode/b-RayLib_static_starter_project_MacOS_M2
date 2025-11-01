@@ -1,12 +1,16 @@
 # Raylib C++ Example Project
 
-This is a simple C++ project using **Raylib** for graphics. It uses the basic [example of a 3D free camera](https://www.raylib.com/examples/core/loader.html?name=core_3d_camera_free) . The project uses a **statically linked Raylib library**, making it portable across macOS machines without requiring system-wide Raylib installation.
+This is a simple C++ project using **Raylib** for graphics. It uses the basic <a href="https://www.raylib.com/examples/core/loader.html?name=core_3d_camera_free" target="_blank">example of a 3D free camera</a> . The project uses a **statically linked Raylib library**, making it portable across macOS machines without requiring system-wide Raylib installation.
+
+
+![alt text](docs/app_running.gif)
 
 
 ## 📂 Project Directory Structure
 
 ```
 my_project/
+├── docs/                # Documentation
 ├── include/             # Header files
 │   └── raylib/          # Raylib headers
 ├── lib/                 # Static libraries
